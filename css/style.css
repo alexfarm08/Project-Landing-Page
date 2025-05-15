@@ -167,17 +167,96 @@ header {
 }
 
 
-/* info 1 css styling here */
+/* info 2 css styling here */
 
 
 .info2 {
     flex: 2;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
+
+.qoute {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    margin-bottom: 4px;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.qouteA {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+/* info 3 css */
+
 
 .info3 {
     flex: 2;
 }
 
+.info3con {
+    display: flex;
+    background-color: #3882f6;
+    margin: 5em 5em;
+    border-radius: 8px;
+    padding: 2em 2em;
+    justify-content: space-around;
+}
+
+.callToAction{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta1 {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 2px;
+}
+
+.cta2 {
+    display: flex;
+    color: #F9FAF8;
+}
+
+button#cta {
+    display: flex;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+.ctaButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .footer {
     flex: 1;
+}
+
+.end {
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 2em 2em;
+    justify-content: center;
+    align-items: center;
 }
